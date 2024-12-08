@@ -1,7 +1,25 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/node_modules": true
+        },
+        "eslint.enable": true,
+        "prettier.singleQuote": true
+    },
+    "extensions": {
+        "recommendations": [
+            "dbaeumer.vscode-eslint",
+            "esbenp.prettier-vscode",
+            "eamodio.gitlens"
+        ]
+    }
 }
